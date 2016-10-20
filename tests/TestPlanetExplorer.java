@@ -81,9 +81,9 @@ public class TestPlanetExplorer {
 		
 		PlanetExplorer planetE = new PlanetExplorer(100,100);
 		
-		String planet = planetE.executeCommand("ff");
+		String planet = planetE.executeCommand("r");
 		
-		assertEquals("(2,2,E)", planet);
+		assertEquals("(0,0,E)", planet);
 		
 		
 	}
