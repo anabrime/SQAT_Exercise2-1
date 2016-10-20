@@ -97,6 +97,7 @@ public class PlanetExplorer {
 		this.explorerLands3 = explorerLands3;
 	}
 
+	/*
 	public String turning(String command){
 		
 		if(command.equals("r")){
@@ -120,7 +121,7 @@ public class PlanetExplorer {
 		}
 		return  "(" + getExplorerLands1() + "," + getExplorerLands2() + "," + getExplorerLands3() + ")";
 	}
-
+*/
 	public String executeCommand(String command){
 
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
@@ -133,8 +134,27 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 
-		
+		for(int i = 0; i < command.length(); i++){
+			
+			if(command.equals("r")){
 
-		return null;
+				setExplorerLands3('E');
+
+			}else if(command.equals("l")){
+				
+				setExplorerLands3('W');
+				
+			}else if(command.equals("f")){
+				
+				setExplorerLands2(explorerLands2 + 1);
+				
+			}else if(command.equals("b")){
+				
+				setExplorerLands1(explorerLands1 - 1);
+			}
+		}
+
+		return "(" + getExplorerLands1() + "," + getExplorerLands2() + "," + getExplorerLands3() + ")";
+		
 	}
 }

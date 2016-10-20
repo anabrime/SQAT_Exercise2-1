@@ -163,3 +163,4 @@ RefactoringAction 1476967392020 TestPlanetExplorer.java REMOVE test_turning2() M
 RefactoringAction 1476967392020 TestPlanetExplorer.java REMOVE test_moving() METHOD
 RefactoringAction 1476967395536 TestPlanetExplorer.java ADD void test_executeCommand() METHOD
 EditAction 1476967467191 TestPlanetExplorer.java 1608 4 12 4
+EditAction 1476967467260 PlanetExplorer.java 3378 14 20 0
