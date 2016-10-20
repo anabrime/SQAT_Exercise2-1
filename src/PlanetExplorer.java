@@ -134,6 +134,8 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		for(int i = 0; i < command.length(); i++){
+			//(explorerLands1-y, explorerLands2-x, explorerLands3)
+			//ffrff
 			
 			if(command.charAt(i) == 'r'){
 
@@ -145,20 +147,38 @@ public class PlanetExplorer {
 				
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'E'){
 				
-				setExplorerLands1(explorerLands1 + 1);
+				setExplorerLands1(explorerLands2 + 1);
 			
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'W'){
 				
-				setExplorerLands2(explorerLands2 + 1);
+				setExplorerLands2(explorerLands2 - 1);
 				
-			}else if(command.charAt(i) == 'f' && explorerLands3 == 'E'){
+			}else if(command.charAt(i) == 'f' && explorerLands3 == 'N'){
 				
 				setExplorerLands1(explorerLands1 + 1);
 			
-			}else if(command.charAt(i) == 'f' && explorerLands3 == 'W'){
+			}else if(command.charAt(i) == 'f' && explorerLands3 == 'S'){
+				
+				setExplorerLands2(explorerLands1 - 1);
+			
+			}else if(command.charAt(i) == 'b' && explorerLands3 == 'E'){
+				
+				setExplorerLands1(explorerLands2 - 1);
+			
+			}else if(command.charAt(i) == 'b' && explorerLands3 == 'W'){
 				
 				setExplorerLands2(explorerLands2 + 1);
+				
+			}else if(command.charAt(i) == 'b' && explorerLands3 == 'N'){
+				
+				setExplorerLands1(explorerLands1 - 1);
+			
+			}else if(command.charAt(i) == 'b' && explorerLands3 == 'S'){
+				
+				setExplorerLands2(explorerLands1 + 1);
 			}
+			
+			
 		}
 
 		return "(" + getExplorerLands1() + "," + getExplorerLands2() + "," + getExplorerLands3() + ")";
