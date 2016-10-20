@@ -58,3 +58,30 @@ EditAction 1476964401644 TestPlanetExplorer.java 524 3 6 2
 UnitTestCaseAction 1476964402685 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476964402686 TestPlanetExplorer.java FAIL
 EditAction 1476964416639 TestPlanetExplorer.java 524 3 6 2
+UnitTestCaseAction 1476964417539 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476964417539 TestPlanetExplorer.java OK
+RefactoringAction 1476964468235 PlanetExplorer.java ADD void lands FIELD
+RefactoringAction 1476964471250 PlanetExplorer.java RENAME lands=>void landsOn FIELD
+RefactoringAction 1476964473766 PlanetExplorer.java RENAME landsOn=>void landsOnThePlanet() METHOD
+RefactoringAction 1476964713975 PlanetExplorer.java RENAME landsOnThePlanet()=>String getlandsOnThePlanet() METHOD
+RefactoringAction 1476964717995 PlanetExplorer.java RENAME getlandsOnThePlanet()=>String getLandsOnThePlanet() METHOD
+RefactoringAction 1476964753026 PlanetExplorer.java ADD int E FIELD
+RefactoringAction 1476964757041 PlanetExplorer.java RENAME E=>int explorerLands FIELD
+RefactoringAction 1476964761056 PlanetExplorer.java RENAME explorerLands=>int explorerLands1 FIELD
+RefactoringAction 1476964767571 PlanetExplorer.java ADD int explorerLands FIELD
+RefactoringAction 1476964769086 PlanetExplorer.java RENAME explorerLands=>int explorerLands2 FIELD
+RefactoringAction 1476964806178 PlanetExplorer.java ADD char explorer FIELD
+RefactoringAction 1476964825195 PlanetExplorer.java RENAME explorer=>char explorerLands FIELD
+RefactoringAction 1476964826711 PlanetExplorer.java RENAME explorerLands=>char explorerLands3 FIELD
+RefactoringAction 1476964888967 PlanetExplorer.java RENAME PlanetExplorer(int, int)=>PlanetExplorer(int, int, int) METHOD
+RefactoringAction 1476964892985 PlanetExplorer.java RENAME PlanetExplorer(int, int, int)=>PlanetExplorer(int, int) METHOD
+RefactoringAction 1476964895503 PlanetExplorer.java RENAME PlanetExplorer(int, int)=>PlanetExplorer(int, int, int) METHOD
+RefactoringAction 1476964897017 PlanetExplorer.java RENAME PlanetExplorer(int, int, int)=>PlanetExplorer(int, int, int, int) METHOD
+RefactoringAction 1476964909576 PlanetExplorer.java RENAME PlanetExplorer(int, int, int, int)=>PlanetExplorer(int, int, int, int, char) METHOD
+RefactoringAction 1476964941642 PlanetExplorer.java ADD int getExplorerLands1() METHOD
+RefactoringAction 1476964941643 PlanetExplorer.java ADD void setExplorerLands1(int) METHOD
+RefactoringAction 1476964941643 PlanetExplorer.java ADD int getExplorerLands2() METHOD
+RefactoringAction 1476964941644 PlanetExplorer.java ADD void setExplorerLands2(int) METHOD
+RefactoringAction 1476964941645 PlanetExplorer.java ADD char getExplorerLands3() METHOD
+RefactoringAction 1476964941645 PlanetExplorer.java ADD void setExplorerLands3(char) METHOD
+EditAction 1476965054911 TestPlanetExplorer.java 548 3 6 2
