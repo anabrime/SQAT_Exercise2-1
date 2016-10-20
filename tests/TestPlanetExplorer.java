@@ -4,7 +4,16 @@ import org.junit.Test;
 
 public class TestPlanetExplorer {
 	
-	PlanetExplorer planet = new PlanetExplorer(100,100);
+	
+	@Test
+	public void test_createPlanet(){
+		PlanetExplorer planetE = new PlanetExplorer(100,100);
+		
+		String planet = planetE.getPlanet();
+		
+		assertTrue("100x100", true);
+	}
+	
 	
 	@Test
 	public void test_executeCommand() {

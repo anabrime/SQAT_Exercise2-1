@@ -22,3 +22,8 @@ RefactoringAction 1476963762948 PlanetExplorer.java REMOVE setObstacles(String) 
 EditAction 1476963765547 PlanetExplorer.java 1483 6 7 0
 EditAction 1476963765686 TestPlanetExplorer.java 206 1 0 0
 EditAction 1476963779661 PlanetExplorer.java 1499 6 7 0
+RefactoringAction 1476963851916 TestPlanetExplorer.java REMOVE planet FIELD
+RefactoringAction 1476963870011 TestPlanetExplorer.java ADD void test_createPlanet() METHOD
+RefactoringAction 1476963947574 PlanetExplorer.java ADD String get FIELD
+RefactoringAction 1476963951092 PlanetExplorer.java RENAME get=>String getPlanet() METHOD
+EditAction 1476964172506 TestPlanetExplorer.java 332 2 3 1
