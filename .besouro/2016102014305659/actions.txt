@@ -91,3 +91,8 @@ UnitTestSessionAction 1476965056357 TestPlanetExplorer.java OK
 RefactoringAction 1476965064561 TestPlanetExplorer.java ADD void test_createPlanet2()/2 METHOD
 RefactoringAction 1476965075078 TestPlanetExplorer.java RENAME test_createPlanet2()/2=>void test_getLandsOnThePlanet() METHOD
 EditAction 1476965179985 TestPlanetExplorer.java 759 4 9 3
+UnitTestCaseAction 1476965182438 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476965182439 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476965250658 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476965250658 TestPlanetExplorer.java FAIL
+EditAction 1476965261438 TestPlanetExplorer.java 757 4 9 3

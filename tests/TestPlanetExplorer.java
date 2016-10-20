@@ -31,7 +31,7 @@ public class TestPlanetExplorer {
 		
 		String planet2 = planetE.getLandsOnThePlanet();
 		
-		assertEquals(planet2, "(0, 0, 'N')");
+		assertEquals(planet2, "(0, 0, N)");
 	}
 	
 	@Test
