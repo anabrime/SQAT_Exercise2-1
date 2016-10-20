@@ -178,3 +178,6 @@ UnitTestSessionAction 1476967756793 TestPlanetExplorer.java FAIL
 RefactoringAction 1476968158533 PlanetExplorer.java ADD void getExplorerLands1()/2 METHOD
 RefactoringAction 1476968160048 PlanetExplorer.java REMOVE getExplorerLands1()/2 METHOD
 EditAction 1476968171947 PlanetExplorer.java 3675 14 20 0
+UnitTestCaseAction 1476968173186 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476968173186 TestPlanetExplorer.java FAIL
+EditAction 1476968188968 PlanetExplorer.java 3679 14 20 0
