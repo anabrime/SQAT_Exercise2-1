@@ -147,35 +147,35 @@ public class PlanetExplorer {
 				
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'E'){
 				
-				setExplorerLands1(explorerLands2 + 1);
+				setExplorerLands1(explorerLands1 + 1);
 			
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'W'){
 				
-				setExplorerLands2(explorerLands2 - 1);
+				setExplorerLands2(explorerLands1 - 1);
 				
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'N'){
 				
-				setExplorerLands1(explorerLands1 + 1);
+				setExplorerLands1(explorerLands2 + 1);
 			
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'S'){
 				
-				setExplorerLands2(explorerLands1 - 1);
+				setExplorerLands2(explorerLands2 - 1);
 			
 			}else if(command.charAt(i) == 'b' && explorerLands3 == 'E'){
 				
-				setExplorerLands1(explorerLands2 - 1);
+				setExplorerLands1(explorerLands1 - 1);
 			
 			}else if(command.charAt(i) == 'b' && explorerLands3 == 'W'){
 				
-				setExplorerLands2(explorerLands2 + 1);
+				setExplorerLands2(explorerLands1 + 1);
 				
 			}else if(command.charAt(i) == 'b' && explorerLands3 == 'N'){
 				
-				setExplorerLands1(explorerLands1 - 1);
+				setExplorerLands1(explorerLands2 - 1);
 			
 			}else if(command.charAt(i) == 'b' && explorerLands3 == 'S'){
 				
-				setExplorerLands2(explorerLands1 + 1);
+				setExplorerLands2(explorerLands2 + 1);
 			}
 			
 			
