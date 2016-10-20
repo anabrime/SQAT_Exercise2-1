@@ -99,11 +99,11 @@ public class PlanetExplorer {
 
 	public String turning(String command){
 		
-		if(command.equals('r')){
+		if(command.equals("r")){
 
 			setExplorerLands3('E');
 
-		}else if(command.equals('l')){
+		}else if(command.equals("l")){
 			
 			setExplorerLands3('W');
 			

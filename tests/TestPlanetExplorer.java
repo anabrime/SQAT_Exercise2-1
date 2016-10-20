@@ -7,7 +7,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_createPlanet(){
-		PlanetExplorer planetE = new PlanetExplorer(100,100, 0, 0, 'N');
+		PlanetExplorer planetE = new PlanetExplorer(100,100);
 		
 		String planet = planetE.getPlanet();
 		
@@ -18,7 +18,7 @@ public class TestPlanetExplorer {
 
 	@Test
 	public void test_createPlanet2(){
-		PlanetExplorer planetE2 = new PlanetExplorer(200,200, 0, 0, 'N');
+		PlanetExplorer planetE2 = new PlanetExplorer(200,200);
 		
 		String planet2 = planetE2.getPlanet();
 		
@@ -27,7 +27,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_getLandsOnThePlanet(){
-		PlanetExplorer planetE = new PlanetExplorer(0, 0, 0, 0, 'N');
+		PlanetExplorer planetE = new PlanetExplorer(100, 100);
 		
 		String planet2 = planetE.getLandsOnThePlanet();
 		
@@ -36,7 +36,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_turning(){
-		PlanetExplorer planetE = new PlanetExplorer(100,100, 0, 0, 'N');
+		PlanetExplorer planetE = new PlanetExplorer(100,100);
 		
 		String planet = planetE.turning("r");
 		
