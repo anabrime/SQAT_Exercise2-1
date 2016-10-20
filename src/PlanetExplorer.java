@@ -156,7 +156,7 @@ public class PlanetExplorer {
 				
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'N'){
 				
-				setExplorerLands1(explorerLands2 + 1); // --> 
+				setExplorerLands1(explorerLands1 + 1); // --> 
 			
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'S'){
 				
