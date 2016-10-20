@@ -11,7 +11,8 @@ public class TestPlanetExplorer {
 		
 		String planet = planetE.getPlanet();
 		
-		assertTrue(planet, true);
+		assertEquals(planet, "100x100");
+	
 	}
 	
 
@@ -21,7 +22,7 @@ public class TestPlanetExplorer {
 		
 		String planet2 = planetE2.getPlanet();
 		
-		assertTrue("100x100", true);
+		assertEquals(planet2, "100x100");
 	}
 	
 	@Test

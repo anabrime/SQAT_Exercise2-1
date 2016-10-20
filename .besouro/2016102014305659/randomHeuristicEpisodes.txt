@@ -1,3 +1,5 @@
 1476964174625 test-first 4 1118 true
 1476964271339 test-addition 2 86 true
 1476964289875 regression 1 1 true
+1476964298382 regression 1 1 true
+1476964368137 regression 1 0 false
