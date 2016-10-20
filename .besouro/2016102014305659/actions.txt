@@ -20,3 +20,4 @@ RefactoringAction 1476963757911 PlanetExplorer.java REMOVE obstacles FIELD
 RefactoringAction 1476963762947 PlanetExplorer.java REMOVE getObstacles() METHOD
 RefactoringAction 1476963762948 PlanetExplorer.java REMOVE setObstacles(String) METHOD
 EditAction 1476963765547 PlanetExplorer.java 1483 6 7 0
+EditAction 1476963765686 TestPlanetExplorer.java 206 1 0 0
