@@ -136,3 +136,6 @@ RefactoringAction 1476966595354 PlanetExplorer.java ADD void moving FIELD
 RefactoringAction 1476966596368 PlanetExplorer.java RENAME moving=>void moving() METHOD
 RefactoringAction 1476966649451 PlanetExplorer.java RENAME moving()=>String moving(String) METHOD
 EditAction 1476966851324 PlanetExplorer.java 2932 16 23 0
+RefactoringAction 1476966859086 TestPlanetExplorer.java ADD void test_turning2()/2 METHOD
+RefactoringAction 1476966865098 TestPlanetExplorer.java RENAME test_turning2()/2=>void test_moving() METHOD
+EditAction 1476966936055 TestPlanetExplorer.java 1268 7 18 6

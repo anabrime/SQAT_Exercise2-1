@@ -56,6 +56,16 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
+	public void test_moving(){
+		PlanetExplorer planetE = new PlanetExplorer(100,100);
+		
+		String planet = planetE.turning("f");
+		
+		assertEquals(planet,"(0,1,N)");
+		
+	}
+	
+	@Test
 	public void test_executeCommand() {
 		
 		
