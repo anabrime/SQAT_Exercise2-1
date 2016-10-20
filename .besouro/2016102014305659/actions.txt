@@ -130,3 +130,9 @@ UnitTestSessionAction 1476966520547 TestPlanetExplorer.java OK
 RefactoringAction 1476966531012 TestPlanetExplorer.java ADD void test_turning()/2 METHOD
 RefactoringAction 1476966534533 TestPlanetExplorer.java RENAME test_turning()/2=>void test_turning2() METHOD
 EditAction 1476966542699 TestPlanetExplorer.java 1089 6 15 5
+UnitTestCaseAction 1476966544047 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476966544048 TestPlanetExplorer.java OK
+RefactoringAction 1476966595354 PlanetExplorer.java ADD void moving FIELD
+RefactoringAction 1476966596368 PlanetExplorer.java RENAME moving=>void moving() METHOD
+RefactoringAction 1476966649451 PlanetExplorer.java RENAME moving()=>String moving(String) METHOD
+EditAction 1476966851324 PlanetExplorer.java 2932 16 23 0

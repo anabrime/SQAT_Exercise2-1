@@ -110,6 +110,16 @@ public class PlanetExplorer {
 		}
 		return "(" + getExplorerLands1() + "," + getExplorerLands2() + "," + getExplorerLands3() + ")";
 	}
+	
+	public String moving(String command){
+		
+		if(command.equals("f")){
+			setExplorerLands2(explorerLands2 + 1);
+		}else if(command.equals("b")){
+			setExplorerLands1(explorerLands1 - 1);
+		}
+		return  "(" + getExplorerLands1() + "," + getExplorerLands2() + "," + getExplorerLands3() + ")";
+	}
 
 	public String executeCommand(String command){
 
