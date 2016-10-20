@@ -99,7 +99,7 @@ public class PlanetExplorer {
 		this.explorerLands3 = explorerLands3;
 	}
 
-	public void turning(String command){
+	public String turning(String command){
 		
 		if(command.equals('r')){
 
@@ -110,6 +110,7 @@ public class PlanetExplorer {
 			setExplorerLands3('W');
 			
 		}
+		return "(" + getExplorerLands1() + "," + getExplorerLands2() + "," + getExplorerLands3() + ")";
 	}
 
 	public String executeCommand(String command){
