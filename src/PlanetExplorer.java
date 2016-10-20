@@ -151,11 +151,11 @@ public class PlanetExplorer {
 				
 				setExplorerLands2(explorerLands2 + 1);
 				
-			}else if(command.charAt(i) == 'b' && explorerLands3 == 'E'){
+			}else if(command.charAt(i) == 'f' && explorerLands3 == 'E'){
 				
 				setExplorerLands1(explorerLands1 + 1);
 			
-			}else if(command.charAt(i) == 'b' && explorerLands3 == 'W'){
+			}else if(command.charAt(i) == 'f' && explorerLands3 == 'W'){
 				
 				setExplorerLands2(explorerLands2 + 1);
 			}
