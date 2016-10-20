@@ -106,3 +106,5 @@ RefactoringAction 1476965992333 PlanetExplorer.java RENAME turning=>void turning
 RefactoringAction 1476965995843 PlanetExplorer.java RENAME turning()=>void turning(String) METHOD
 RefactoringAction 1476966032940 TestPlanetExplorer.java ADD void test_turning() METHOD
 EditAction 1476966229791 TestPlanetExplorer.java 939 5 12 4
+CompilationAction 1476966229863 TestPlanetExplorer.java
+EditAction 1476966229871 PlanetExplorer.java 2667 15 23 0
