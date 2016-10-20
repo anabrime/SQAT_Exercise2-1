@@ -153,3 +153,13 @@ EditAction 1476967080739 TestPlanetExplorer.java 1449 8 21 7
 UnitTestCaseAction 1476967082317 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476967082317 TestPlanetExplorer.java FAIL
 EditAction 1476967089328 TestPlanetExplorer.java 1449 8 21 7
+UnitTestCaseAction 1476967090593 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476967090593 TestPlanetExplorer.java OK
+RefactoringAction 1476967272257 PlanetExplorer.java ADD int i FIELD
+RefactoringAction 1476967392017 TestPlanetExplorer.java REMOVE test_executeCommand() METHOD
+RefactoringAction 1476967392018 TestPlanetExplorer.java REMOVE test_turning() METHOD
+RefactoringAction 1476967392019 TestPlanetExplorer.java REMOVE test_moving2() METHOD
+RefactoringAction 1476967392020 TestPlanetExplorer.java REMOVE test_turning2() METHOD
+RefactoringAction 1476967392020 TestPlanetExplorer.java REMOVE test_moving() METHOD
+RefactoringAction 1476967395536 TestPlanetExplorer.java ADD void test_executeCommand() METHOD
+EditAction 1476967467191 TestPlanetExplorer.java 1608 4 12 4

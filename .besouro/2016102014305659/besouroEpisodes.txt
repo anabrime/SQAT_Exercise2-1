@@ -49,3 +49,7 @@
 1476966544049 test-addition 1 13 true
 1476967057471 test-last 1 462 false
 1476967057472 test-last 1 462 false
+1476967090593 test-addition 2 25 true
+1476967090594 test-addition 1 25 true
+1476967090595 test-addition 2 25 true
+1476967090596 test-addition 1 25 true

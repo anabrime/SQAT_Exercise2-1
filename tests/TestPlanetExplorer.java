@@ -33,7 +33,7 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,0,N)", planet2);
 	}
-	
+	/*
 	@Test
 	public void test_turning(){
 		PlanetExplorer planetE = new PlanetExplorer(100,100);
@@ -74,8 +74,16 @@ public class TestPlanetExplorer {
 		assertEquals("(-1,0,N)", planet);
 		
 	}
+	*/
+	
 	@Test
 	public void test_executeCommand() {
+		
+		PlanetExplorer planetE = new PlanetExplorer(100,100);
+		
+		String planet = planetE.executeCommand("ffrff");
+		
+		assertEquals("(2,2,E)", planet);
 		
 		
 	}
