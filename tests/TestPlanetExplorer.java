@@ -83,7 +83,7 @@ public class TestPlanetExplorer {
 		
 		String planet = planetE.executeCommand("frff");
 		
-		assertEquals("(3,0,E)", planet);
+		assertEquals("(2,1,E)", planet);
 		
 		
 	}
