@@ -133,7 +133,8 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		for(int i = 0; i < command.length(); i++){
+		int i = 0;
+		while(i < command.length()){
 			//(explorerLands1-y, explorerLands2-x, explorerLands3)
 			//ffrff
 			// (0,0,N) (0,1,N) (0,2,N) (0,2,E) (1,2,E) (2,2,E)
@@ -141,42 +142,50 @@ public class PlanetExplorer {
 			if(command.charAt(i) == 'r'){
 
 				setExplorerLands3('E');
+				i++;
 
 			}else if(command.charAt(i) == 'l'){
 				
 				setExplorerLands3('W');
+				i++;
 				
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'E'){
 				
 				setExplorerLands1(explorerLands1 + 1); 
+				i++;
 			
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'W'){
 				
 				setExplorerLands2(explorerLands1 - 1);
+				i++;
 				
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'N'){
 				
 				setExplorerLands1(explorerLands2 + 1); 
+				i++;
 			
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'S'){
 				
 				setExplorerLands2(explorerLands2 - 1);
+				i++;
 			
 			}else if(command.charAt(i) == 'b' && explorerLands3 == 'E'){
 				
 				setExplorerLands1(explorerLands1 - 1);
-			
+				i++;
 			}else if(command.charAt(i) == 'b' && explorerLands3 == 'W'){
 				
 				setExplorerLands2(explorerLands1 + 1);
-				
+				i++;
 			}else if(command.charAt(i) == 'b' && explorerLands3 == 'N'){
 				
 				setExplorerLands1(explorerLands2 - 1);
+				i++;
 			
 			}else if(command.charAt(i) == 'b' && explorerLands3 == 'S'){
 				
 				setExplorerLands2(explorerLands2 + 1);
+				i++;
 			}
 			
 			
