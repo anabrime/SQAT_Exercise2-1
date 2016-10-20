@@ -5,8 +5,8 @@
 
 public class PlanetExplorer {
 	
-	int x; 
-	int y;
+	private int x; 
+	private int y;
 
 	
 	public PlanetExplorer(int x, int y){
