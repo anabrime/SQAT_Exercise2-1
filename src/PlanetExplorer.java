@@ -136,6 +136,7 @@ public class PlanetExplorer {
 		for(int i = 0; i < command.length(); i++){
 			//(explorerLands1-y, explorerLands2-x, explorerLands3)
 			//ffrff
+			// (0,0,N) (0,1,N) (0,2,N) (0,2,E) (1,2,E) (2,2,E)
 			
 			if(command.charAt(i) == 'r'){
 
@@ -147,7 +148,7 @@ public class PlanetExplorer {
 				
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'E'){
 				
-				setExplorerLands1(explorerLands1 + 1);
+				setExplorerLands1(explorerLands2 + 1); 
 			
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'W'){
 				
@@ -155,7 +156,7 @@ public class PlanetExplorer {
 				
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'N'){
 				
-				setExplorerLands1(explorerLands2 + 1);
+				setExplorerLands1(explorerLands2 + 1); // --> 
 			
 			}else if(command.charAt(i) == 'f' && explorerLands3 == 'S'){
 				
