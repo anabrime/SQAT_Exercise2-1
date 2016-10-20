@@ -274,3 +274,4 @@ RefactoringAction 1476970166658 PlanetExplorer.java RENAME wrappin=>String wrapp
 RefactoringAction 1476970168176 PlanetExplorer.java RENAME wrapping=>String wrapping() METHOD
 RefactoringAction 1476970203228 PlanetExplorer.java RENAME wrapping()=>String wrapping(String) METHOD
 EditAction 1476970530698 TestPlanetExplorer.java 1605 4 12 4
+FileOpenedAction 1476970677852 PlanetExplorer.java 4506 15 22 0
