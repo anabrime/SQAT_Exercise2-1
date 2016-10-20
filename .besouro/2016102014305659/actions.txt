@@ -27,3 +27,4 @@ RefactoringAction 1476963870011 TestPlanetExplorer.java ADD void test_createPlan
 RefactoringAction 1476963947574 PlanetExplorer.java ADD String get FIELD
 RefactoringAction 1476963951092 PlanetExplorer.java RENAME get=>String getPlanet() METHOD
 EditAction 1476964172506 TestPlanetExplorer.java 332 2 3 1
+EditAction 1476964172572 PlanetExplorer.java 1603 7 10 0

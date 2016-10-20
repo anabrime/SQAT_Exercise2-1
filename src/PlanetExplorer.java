@@ -36,7 +36,13 @@ public class PlanetExplorer {
 		this.x = x;
 	}
 
-
+	public String getPlanet(){
+		
+		String planet;
+		planet = getX() + "x" + getY();
+		return planet;
+		
+	}
 
 	public int getY() {
 		return y;
