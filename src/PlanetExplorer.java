@@ -135,21 +135,28 @@ public class PlanetExplorer {
 		 */
 		for(int i = 0; i < command.length(); i++){
 			
-			if(command.charAt(i).equals('r')){
+			if(command.charAt(i) == 'r'){
 
 				setExplorerLands3('E');
 
-			}else if(command.equals("l")){
+			}else if(command.charAt(i) == 'l'){
 				
 				setExplorerLands3('W');
 				
-			}else if(command.equals("f")){
+			}else if(command.charAt(i) == 'f' && explorerLands3 == 'E'){
+				
+				setExplorerLands1(explorerLands1 + 1);
+			
+			}else if(command.charAt(i) == 'f' && explorerLands3 == 'W'){
 				
 				setExplorerLands2(explorerLands2 + 1);
 				
-			}else if(command.equals("b")){
+			}else if(command.charAt(i) == 'b' && explorerLands3 == 'E'){
 				
 				setExplorerLands1(explorerLands1 - 1);
+			}else if(command.charAt(i) == 'b' && explorerLands3 == 'W'){
+				
+				setExplorerLands2(explorerLands2 - 1);
 			}
 		}
 
