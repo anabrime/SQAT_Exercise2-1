@@ -108,3 +108,6 @@ RefactoringAction 1476966032940 TestPlanetExplorer.java ADD void test_turning() 
 EditAction 1476966229791 TestPlanetExplorer.java 939 5 12 4
 CompilationAction 1476966229863 TestPlanetExplorer.java
 EditAction 1476966229871 PlanetExplorer.java 2667 15 23 0
+UnitTestCaseAction 1476966230921 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966230922 TestPlanetExplorer.java FAIL
+EditAction 1476966301883 TestPlanetExplorer.java 944 5 12 4

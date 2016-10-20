@@ -38,9 +38,9 @@ public class TestPlanetExplorer {
 	public void test_turning(){
 		PlanetExplorer planetE = new PlanetExplorer(100,100, 0, 0, 'N');
 		
-		planetE.turning("r");
+		String planet = planetE.turning("r");
 		
-		assertEquals(planetE,"100,100, 0, 0,'E'");
+		assertEquals(planet,"(0,0,E)");
 		
 	}
 	@Test
