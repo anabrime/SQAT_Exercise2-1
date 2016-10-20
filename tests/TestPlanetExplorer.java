@@ -59,7 +59,7 @@ public class TestPlanetExplorer {
 	public void test_moving(){
 		PlanetExplorer planetE = new PlanetExplorer(100,100);
 		
-		String planet = planetE.turning("f");
+		String planet = planetE.moving("f");
 		
 		assertEquals("(0,1,N)", planet);
 		
