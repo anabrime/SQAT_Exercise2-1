@@ -11,7 +11,7 @@ public class TestPlanetExplorer {
 		
 		String planet = planetE.getPlanet();
 		
-		assertEquals(planet, "100x100");
+		assertEquals("100x100", planet);
 	
 	}
 	
@@ -22,7 +22,7 @@ public class TestPlanetExplorer {
 		
 		String planet2 = planetE2.getPlanet();
 		
-		assertEquals(planet2, "200x200");
+		assertEquals("200x200", planet2);
 	}
 	
 	@Test
@@ -31,7 +31,7 @@ public class TestPlanetExplorer {
 		
 		String planet2 = planetE.getLandsOnThePlanet();
 		
-		assertEquals(planet2, "(0,0,N)");
+		assertEquals("(0,0,N)", planet2);
 	}
 	
 	@Test
@@ -40,7 +40,7 @@ public class TestPlanetExplorer {
 		
 		String planet = planetE.turning("r");
 		
-		assertEquals(planet,"(0,0,E)");
+		assertEquals("(0,0,E)", planet);
 		
 	}
 	
@@ -51,7 +51,7 @@ public class TestPlanetExplorer {
 		
 		String planet = planetE.turning("l");
 		
-		assertEquals(planet,"(0,0,W)");
+		assertEquals("(0,0,W)", planet);
 		
 	}
 	
@@ -61,7 +61,7 @@ public class TestPlanetExplorer {
 		
 		String planet = planetE.turning("f");
 		
-		assertEquals(planet,"(0,1,N)");
+		assertEquals("(0,1,N)", planet);
 		
 	}
 	

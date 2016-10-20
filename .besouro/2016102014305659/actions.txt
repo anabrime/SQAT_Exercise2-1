@@ -139,3 +139,6 @@ EditAction 1476966851324 PlanetExplorer.java 2932 16 23 0
 RefactoringAction 1476966859086 TestPlanetExplorer.java ADD void test_turning2()/2 METHOD
 RefactoringAction 1476966865098 TestPlanetExplorer.java RENAME test_turning2()/2=>void test_moving() METHOD
 EditAction 1476966936055 TestPlanetExplorer.java 1268 7 18 6
+UnitTestCaseAction 1476966937341 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966937341 TestPlanetExplorer.java FAIL
+EditAction 1476967005146 TestPlanetExplorer.java 1271 7 18 6
