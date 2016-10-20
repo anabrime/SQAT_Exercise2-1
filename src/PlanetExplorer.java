@@ -134,7 +134,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		int i = 0;
-		while(i < command.length()){
+  		while(i < command.length()){
 			//(explorerLands1-y, explorerLands2-x, explorerLands3)
 			//ffrff
 			// (0,0,N) (0,1,N) (0,2,N) (0,2,E) (1,2,E) (2,2,E)
