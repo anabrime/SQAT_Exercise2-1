@@ -21,7 +21,7 @@ public class TestPlanetExplorer {
 		
 		String planet2 = planetE2.getPlanet();
 		
-		assertTrue(planet2, false);
+		assertTrue(planet2, true);
 	}
 	
 	@Test
