@@ -133,10 +133,9 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-
-		for(int i = 0; i < command.length(); i++){
+		for(int i = 1; i < command.length(); i++){
 			
-			if(command.equals("r")){
+			if(command.charAt(i)){
 
 				setExplorerLands3('E');
 

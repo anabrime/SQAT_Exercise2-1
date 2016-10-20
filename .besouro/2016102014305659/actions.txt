@@ -164,3 +164,8 @@ RefactoringAction 1476967392020 TestPlanetExplorer.java REMOVE test_moving() MET
 RefactoringAction 1476967395536 TestPlanetExplorer.java ADD void test_executeCommand() METHOD
 EditAction 1476967467191 TestPlanetExplorer.java 1608 4 12 4
 EditAction 1476967467260 PlanetExplorer.java 3378 14 20 0
+UnitTestCaseAction 1476967468279 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476967468279 TestPlanetExplorer.java FAIL
+RefactoringAction 1476967531640 PlanetExplorer.java ADD void getExplorerLands1()/2 METHOD
+RefactoringAction 1476967534668 PlanetExplorer.java REMOVE getExplorerLands1()/2 METHOD
+EditAction 1476967585874 PlanetExplorer.java 3375 14 20 0
