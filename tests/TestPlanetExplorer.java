@@ -17,7 +17,7 @@ public class TestPlanetExplorer {
 
 	@Test
 	public void test_createPlanet2(){
-		PlanetExplorer planetE2 = new PlanetExplorer(200,100);
+		PlanetExplorer planetE2 = new PlanetExplorer(200,200);
 		
 		String planet2 = planetE2.getPlanet();
 		
