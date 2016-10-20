@@ -22,7 +22,7 @@ public class TestPlanetExplorer {
 		
 		String planet2 = planetE2.getPlanet();
 		
-		assertEquals(planet2, "100x100");
+		assertEquals(planet2, "200x200");
 	}
 	
 	@Test
