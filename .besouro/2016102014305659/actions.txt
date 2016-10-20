@@ -125,3 +125,8 @@ RefactoringAction 1476966513701 PlanetExplorer.java REMOVE getExplorerLands1()/2
 RefactoringAction 1476966516218 PlanetExplorer.java ADD void getExplorerLands1()/2 METHOD
 RefactoringAction 1476966517732 PlanetExplorer.java REMOVE getExplorerLands1()/2 METHOD
 EditAction 1476966519238 PlanetExplorer.java 2638 15 21 0
+UnitTestCaseAction 1476966520546 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476966520547 TestPlanetExplorer.java OK
+RefactoringAction 1476966531012 TestPlanetExplorer.java ADD void test_turning()/2 METHOD
+RefactoringAction 1476966534533 TestPlanetExplorer.java RENAME test_turning()/2=>void test_turning2() METHOD
+EditAction 1476966542699 TestPlanetExplorer.java 1089 6 15 5
