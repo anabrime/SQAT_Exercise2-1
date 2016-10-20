@@ -25,6 +25,14 @@ public class TestPlanetExplorer {
 		assertEquals(planet2, "200x200");
 	}
 	
+	@Test
+	public void test_getLandsOnThePlanet(){
+		PlanetExplorer planetE = new PlanetExplorer(0, 0, 0, 0, 'N');
+		
+		String planet2 = planetE.getLandsOnThePlanet();
+		
+		assertEquals(planet2, "(0, 0, 'N')");
+	}
 	
 	@Test
 	public void test_executeCommand() {

@@ -86,3 +86,8 @@ RefactoringAction 1476964941645 PlanetExplorer.java ADD char getExplorerLands3()
 RefactoringAction 1476964941645 PlanetExplorer.java ADD void setExplorerLands3(char) METHOD
 EditAction 1476965054911 TestPlanetExplorer.java 548 3 6 2
 EditAction 1476965055003 PlanetExplorer.java 2511 14 22 0
+UnitTestCaseAction 1476965056356 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476965056357 TestPlanetExplorer.java OK
+RefactoringAction 1476965064561 TestPlanetExplorer.java ADD void test_createPlanet2()/2 METHOD
+RefactoringAction 1476965075078 TestPlanetExplorer.java RENAME test_createPlanet2()/2=>void test_getLandsOnThePlanet() METHOD
+EditAction 1476965179985 TestPlanetExplorer.java 759 4 9 3
