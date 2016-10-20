@@ -112,3 +112,7 @@ UnitTestCaseAction 1476966230921 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476966230922 TestPlanetExplorer.java FAIL
 EditAction 1476966301883 TestPlanetExplorer.java 944 5 12 4
 EditAction 1476966301966 PlanetExplorer.java 2767 15 24 0
+UnitTestCaseAction 1476966303303 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966303304 TestPlanetExplorer.java FAIL
+RefactoringAction 1476966378161 PlanetExplorer.java RENAME PlanetExplorer(int, int, int, int, char)=>PlanetExplorer(int, int) METHOD
+EditAction 1476966381729 PlanetExplorer.java 2638 15 21 0
