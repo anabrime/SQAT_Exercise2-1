@@ -99,3 +99,10 @@ EditAction 1476965261438 TestPlanetExplorer.java 757 4 9 3
 UnitTestCaseAction 1476965262809 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476965262810 TestPlanetExplorer.java FAIL
 EditAction 1476965270560 TestPlanetExplorer.java 755 4 9 3
+UnitTestCaseAction 1476965271653 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476965271653 TestPlanetExplorer.java OK
+RefactoringAction 1476965990817 PlanetExplorer.java ADD void turning FIELD
+RefactoringAction 1476965992333 PlanetExplorer.java RENAME turning=>void turning() METHOD
+RefactoringAction 1476965995843 PlanetExplorer.java RENAME turning()=>void turning(String) METHOD
+RefactoringAction 1476966032940 TestPlanetExplorer.java ADD void test_turning() METHOD
+EditAction 1476966229791 TestPlanetExplorer.java 939 5 12 4

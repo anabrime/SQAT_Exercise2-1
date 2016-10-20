@@ -35,6 +35,15 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
+	public void test_turning(){
+		PlanetExplorer planetE = new PlanetExplorer(100,100, 0, 0, 'N');
+		
+		planetE.turning("r");
+		
+		assertEquals(planetE,"100,100, 0, 0,'E'");
+		
+	}
+	@Test
 	public void test_executeCommand() {
 		
 		
