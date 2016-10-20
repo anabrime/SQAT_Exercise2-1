@@ -194,4 +194,15 @@ public class PlanetExplorer {
 		return "(" + getExplorerLands1() + "," + getExplorerLands2() + "," + getExplorerLands3() + ")";
 		
 	}
+	
+	
+	public String wrapping(String command){
+		
+		
+		//Command b && E && 1 = 100 --> 0
+		// Command b && N && 2 = 100 --> 0
+	
+		
+		return null;
+	}
 }

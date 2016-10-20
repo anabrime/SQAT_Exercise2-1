@@ -267,3 +267,10 @@ EditAction 1476969845571 TestPlanetExplorer.java 1605 4 12 4
 UnitTestCaseAction 1476969856565 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476969856565 TestPlanetExplorer.java OK
 EditAction 1476969867033 TestPlanetExplorer.java 1608 4 12 4
+UnitTestCaseAction 1476969872658 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476969872659 TestPlanetExplorer.java OK
+RefactoringAction 1476970165641 PlanetExplorer.java ADD String wrappin FIELD
+RefactoringAction 1476970166658 PlanetExplorer.java RENAME wrappin=>String wrapping FIELD
+RefactoringAction 1476970168176 PlanetExplorer.java RENAME wrapping=>String wrapping() METHOD
+RefactoringAction 1476970203228 PlanetExplorer.java RENAME wrapping()=>String wrapping(String) METHOD
+EditAction 1476970530698 TestPlanetExplorer.java 1605 4 12 4

@@ -16,3 +16,4 @@
 1476969426513 regression 1 5 false
 1476969622297 regression 2 170 true
 1476969856565 regression 2 229 true
+1476969872659 regression 1 5 false

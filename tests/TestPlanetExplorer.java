@@ -85,6 +85,5 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(2,2,E)", planet);
 		
-		
 	}
 }
