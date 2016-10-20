@@ -17,11 +17,11 @@ public class TestPlanetExplorer {
 
 	@Test
 	public void test_createPlanet2(){
-		PlanetExplorer planetE = new PlanetExplorer(200,100);
+		PlanetExplorer planetE2 = new PlanetExplorer(200,100);
 		
-		String planet2 = planetE.getPlanet();
+		String planet2 = planetE2.getPlanet();
 		
-		assertTrue("100x100", false);
+		assertTrue(planet2, false);
 	}
 	
 	@Test
